@@ -1,5 +1,5 @@
 {
-    "name": "Downtime5e",
+    "name": "downtime5e",
     "title": "Downtime5e",
     "description": "Advanced and complete downtime tracker",
     "version": "0.1",
@@ -10,9 +10,9 @@
 		"./scripts/tracker.js",
         "./module.json"
     ],
-	"scripts": [
-		"scripts/tracker.js"
-	],
+	"esmodules": [
+        "tracker.js"
+    ],
     "author": "Henri"
 	"url":"https://github.com/paashenri/downtime5e"
 }
